@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Udacity_Lesson1</string>
+    <string name="numbers">Numbers</string>
+    <string name="family">Family Members</string>
+    <string name="colors">Color</string>
+    <string name="phrases">Pharases</string>
+
+</resources>

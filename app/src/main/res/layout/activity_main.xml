@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nana.com.udacity_lesson1.MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:layout_weight="0.25"
+        android:background="@color/colorOrange"
+        android:text="@string/numbers"/>
+
+    <TextView
+        android:id="@+id/familyMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:layout_weight="0.25"
+        android:background="@color/colorGreen"
+        android:text="@string/family"/>
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:layout_weight="0.25"
+        android:background="@color/colorPurple"
+        android:text="@string/colors"/>
+
+    <TextView
+        android:id="@+id/pharases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:layout_weight="0.25"
+        android:background="@color/colorBlue"
+        android:text="@string/phrases"/>
+
+</LinearLayout>
